@@ -1,4 +1,4 @@
-;N3ro-clash rule polished by Wym1ng
+;N3ro-ClashX rule polished by Wym1ng
 surge_ruleset=DIRECT,rules/ConnersHua/Surge/Ruleset/Unbreak.list
 surge_ruleset=🛑 广告拦截,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
 surge_ruleset=🛑 广告拦截,rules/ConnersHua/Surge/Ruleset/Hijacking.list
