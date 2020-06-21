@@ -12,7 +12,7 @@ surge_ruleset=🔰 节点选择,rules/ConnersHua/Surge/Ruleset/Global.list
 surge_ruleset=DIRECT,https://raw.githubusercontent.com/tindy2013/subconverter/master/base/rules/LocalAreaNetwork.list
 surge_ruleset=DIRECT,rules/NobyDa/Surge/Download.list
 surge_ruleset=DIRECT,[]GEOIP,CN
-surge_ruleset=🐟 自定义-漏网之鱼,[]FINAL
+surge_ruleset=🐟 漏网之鱼,[]FINAL
 
 ;GPSET
 custom_proxy_group=🔰 节点选择`select`[]🌿 健康检测-中继`[]🛰 健康检测-专线`[]⏩ 直连`select`.*
