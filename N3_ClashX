@@ -1,8 +1,8 @@
-;N3ro-ClashX rule polished by Wym1ng
+;N3RO-ClashX rule polished by Wym1ng
 surge_ruleset=DIRECT,rules/ConnersHua/Surge/Ruleset/Unbreak.list
 surge_ruleset=🛑 广告拦截,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
 surge_ruleset=🛑 广告拦截,rules/ConnersHua/Surge/Ruleset/Hijacking.list
-surge_ruleset=📺 NETFLIX,rules/ConnersHua/Surge/Ruleset/Media/Netflix.list
+surge_ruleset=📺 NETFLIX,rules/ConnersHua/Surge/Ruleset/Media/NETFLIX.list
 surge_ruleset=🗽 社交网络,rules/ConnersHua/Surge/Ruleset/Global.list
 surge_ruleset=🖥 国外流媒体,https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/GlobalTV.list
 surge_ruleset=🐼 国内网站,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
@@ -12,7 +12,7 @@ surge_ruleset=🔰 节点选择,rules/ConnersHua/Surge/Ruleset/Global.list
 surge_ruleset=DIRECT,https://raw.githubusercontent.com/tindy2013/subconverter/master/base/rules/LocalAreaNetwork.list
 surge_ruleset=DIRECT,rules/NobyDa/Surge/Download.list
 surge_ruleset=DIRECT,[]GEOIP,CN
-surge_ruleset=🐟 漏网之鱼,[]FINAL
+surge_ruleset=🐟 自定义-漏网之鱼,[]FINAL
 
 ;GPSET
 custom_proxy_group=🔰 节点选择`select`[]🌿 健康检测-中继`[]🛰 健康检测-专线`[]⏩ 直连`select`.*
@@ -21,13 +21,13 @@ custom_proxy_group=🖥 国外流媒体`select`[]🔰 节点选择`[]🌿 健康
 custom_proxy_group=📺 NETFLIX`select`[]🔰 节点选择`[]🌿 健康检测-中继`(中继)`[]⏩ 直连
 custom_proxy_group=📲 Telegram`select`[]🔰 节点选择`[]🌿 健康检测-中继`(中继)`[]⏩ 直连
 custom_proxy_group=🍎 苹果服务`select`[]⏩ 直连`[]🔰 节点选择`(美国)
-custom_proxy_group=🐟 漏网之鱼`select`[]🔰 节点选择`[]🌿 健康检测-中继`(中继)`[]⏩ 直连
 custom_proxy_group=🌿 健康检测-中继`url-test`(中继)`http://www.gstatic.com/generate_204`400
 custom_proxy_group=🛰 健康检测-专线`url-test`(IPLC|专线)`http://www.gstatic.com/generate_204`400
 custom_proxy_group=🇭🇰 香港节点`url-test`(港|HK|HONG|Hong)`http://www.gstatic.com/generate_204`500
 custom_proxy_group=🇺🇲 美国节点`url-test`(美|US)`http://www.gstatic.com/generate_204`500
 custom_proxy_group=🐼 国内网站`select`[]⏩ 直连`[]🔰 节点选择
 custom_proxy_group=🛑 广告拦截`select`[]🚫 屏蔽`[]⏩ 直连
+custom_proxy_group=🐟 漏网之鱼`select`[]🔰 节点选择`[]⏩ 直连`(中继)
 custom_proxy_group=⏩ 直连`select`[]DIRECT
 custom_proxy_group=🚫 屏蔽`select`[]REJECT
-custom_proxy_group=✏️ 自用规则By Wym1ng 06/14`select`[]DIRECT
+custom_proxy_group=✏️ 自用规则By Wym1ng 06-21`select`[]DIRECT
